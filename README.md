@@ -1,6 +1,5 @@
 # Plateia
-Plateia es una aplicación Full-Stack que simula la gestión y reserva de asientos para una sala de cine o teatro. El proyecto fue diseñado para demostrar la arquitectura Modelo-Vista-Controlador (MVC) en el frontend (JavaScript Vanilla) y la implementación de una API RESTful robusta en el backend (usando [Tu tecnología de Back-end, ej: Node.js/Express]).
-
+Plateia es una aplicación Full-Stack que simula la gestión y reserva de asientos para una sala de cine o teatro. El proyecto fue diseñado para demostrar la arquitectura Modelo-Vista-Controlador (MVC) en el frontend (JavaScript Vanilla) y la implementación de una API RESTful robusta en el backend (usando ??
 ## ✨ Características Destacadas
 Sincronización de Estado: El Front-end se mantiene siempre sincronizado con el Back-end, asegurando que el estado de los asientos sea consistente para todos los usuarios.
 
