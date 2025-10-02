@@ -1,36 +1,13 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Plateia
 
-## Getting Started
+Plateia es una aplicación Full-Stack que simula la gestión y reserva de asientos para una sala de cine o teatro. El proyecto fue diseñado para demostrar la arquitectura Modelo-Vista-Controlador (MVC) en el frontend (JavaScript Vanilla) y la implementación de una API RESTful robusta en el backend (usando ??
 
-First, run the development server:
+## ✨ Características Destacadas
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Sincronización de Estado: El Front-end se mantiene siempre sincronizado con el Back-end, asegurando que el estado de los asientos sea consistente para todos los usuarios.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Autenticación Integrada: Las selecciones temporales de asientos están ligadas al ID del usuario logueado, simulando una reserva personal.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Lógica de Negocio Avanzada: Incluye validación de reglas de selección (por ejemplo, evitar dejar un asiento individual vacío entre dos reservas).
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Cálculo Dinámico: Cálculo instantáneo y preciso del total a pagar al seleccionar y deseleccionar asientos.
